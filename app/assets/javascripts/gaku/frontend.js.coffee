@@ -3,13 +3,13 @@
 
 #= require socket.io
 
-#= require jquery.ui.autocomplete
-#= require jquery.ui.draggable
-#= require jquery.ui.droppable
-#= require jquery.ui.resizable
-#= require jquery.ui.selectable
-#= require jquery.ui.sortable
-#= require jquery.ui.effect-slide
+#= require jquery-ui/widgets/autocomplete
+#= require jquery-ui/widgets/draggable
+#= require jquery-ui/widgets/droppable
+#= require jquery-ui/widgets/resizable
+#= require jquery-ui/widgets/selectable
+#= require jquery-ui/widgets/sortable
+#= require jquery-ui/widgets/effect
 
 # require bootstrap
 #= require bootstrap/alert
