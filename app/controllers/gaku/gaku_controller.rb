@@ -6,7 +6,7 @@ module Gaku
 
     layout :resolve_layout
 
-    before_action :require_login
+    before_action :authenticate_user!
 
     def resolve_layout
       case action_name
