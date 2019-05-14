@@ -9,7 +9,7 @@
 #= require jquery-ui/widgets/resizable
 #= require jquery-ui/widgets/selectable
 #= require jquery-ui/widgets/sortable
-#= require jquery-ui/widgets/effect
+#= require jquery-ui/effect.all
 
 # require bootstrap
 #= require bootstrap/alert
