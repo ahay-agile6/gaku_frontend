@@ -31,7 +31,7 @@ module Gaku
     end
 
     def show_field?(field)
-      ActiveRecord::Type::Boolean.new.type_cast_from_database(field.to_i)
+      ActiveRecord::Type::Boolean.new.type_cast_for_schema(field.to_i)
     end
 
     def prepare_resource_name(nested_resources, resource)
