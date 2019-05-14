@@ -2,7 +2,7 @@ class Gaku::Devise::SessionsController < Devise::SessionsController
   # helper Gaku::GakuHelper
   layout 'gaku/layouts/gaku'
 
-  skip_before_action :authenticate_user!, except: %i( new create ), unless: :devise_controller?
+  skip_before_action :authenticate_user!, except: %i( new create ), raise: false
 
   def create
     self.resource = warden.authenticate!(auth_options)

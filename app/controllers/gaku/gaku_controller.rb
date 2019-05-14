@@ -6,7 +6,7 @@ module Gaku
 
     layout :resolve_layout
 
-    before_action :authenticate_user!, unless: :devise_controller?
+    before_action :authenticate_user!, raise: false
 
     def resolve_layout
       case action_name
