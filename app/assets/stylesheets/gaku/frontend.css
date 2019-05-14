@@ -2,8 +2,8 @@
  *= require gaku/bootstrap_and_theme
  *= require bootstrap-datepicker
  *= require bootstrap-datetimepicker
- *= require jquery.ui.autocomplete
- * require jquery.minicolors
+ *= require jquery-ui/autocomplete
+ *= require jquery.minicolors
  *= require nprogress
  *= require nprogress-bootstrap
  *= require select2
