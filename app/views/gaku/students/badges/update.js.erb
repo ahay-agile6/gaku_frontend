@@ -1,0 +1,3 @@
+$('#edit-badge-modal').modal('hide');
+$('tr#badge-<%= @badge.id %>').html('<%= j render("fields", { badge: @badge }) %>');
+showNotice("<%= render_flash %>");

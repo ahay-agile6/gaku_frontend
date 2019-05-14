@@ -1,0 +1,10 @@
+.row
+  .col-md-6
+    = f.text_field :name, label: t(:'exam.name')
+  .col-md-6
+    = f.collection_select :grading_method_id, @grading_methods, :id, :name, { include_blank: true }, label: t(:'exam.grading_method')
+.row
+  .col-md-6
+    = f.text_area :description, size: "0x2", label: t(:'exam.description')
+  .col-md-6
+    = f.text_area :adjustments, size: "0x2", label: t(:'exam.adjustments')

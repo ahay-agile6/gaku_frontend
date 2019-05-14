@@ -1,0 +1,4 @@
+$('.student-badges-count').html("<%= print_count(@count, t(:'badge.list')) %>");
+$('.badges-count').html("<%= @count %>");
+
+showNotice("<%= render_flash %>");

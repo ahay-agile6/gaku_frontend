@@ -1,0 +1,6 @@
+$('#course-groups-index tbody').append('<%= j render("course_group", {course_group: @course_group}) %>');
+showNotice("<%= render_flash %>");
+$('.course-groups-count').html("<%= print_count(@count, t(:'course_group.list')) %>");
+$('#new-course-group').slide()
+$('#new-course-group-link').show()
+$('#new-course-group form')[0].reset();
